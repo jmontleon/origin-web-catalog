@@ -110,7 +110,7 @@ export class CreateFromBuilderController implements angular.IController {
     this.getServiceClasses();
     this.instancesSupported = !!this.APIService.apiInfo({
       group: 'servicecatalog.k8s.io',
-      resource: 'instances'
+      resource: 'serviceinstances'
     });
   }
 
