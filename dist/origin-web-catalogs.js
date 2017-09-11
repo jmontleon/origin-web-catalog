@@ -1107,7 +1107,7 @@ webpackJsonp([ 0, 1 ], [ function(e, t) {
                 !h.instancesSupported || h.isNewProject() ? (h.ctrl.serviceInstances = [], h.updateBindability()) : h.ctrl.showPodPresets && (h.ctrl.updating = !0, 
                 h.DataService.list({
                     group: "servicecatalog.k8s.io",
-                    resource: "instances"
+                    resource: "serviceinstances"
                 }, {
                     namespace: h.ctrl.selectedProject.metadata.name
                 }, null, {
